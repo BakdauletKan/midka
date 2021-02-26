@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  server:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  client:
+    build:
+      dockerfile: Dockerfile
+      context: .
